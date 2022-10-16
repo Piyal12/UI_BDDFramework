@@ -1,0 +1,8 @@
+
+1) Download selenium server from selenium.dev
+
+2) To initiate hub
+java -jar selenium-server-4.2.2.jar hub
+
+3) To initiate node with detect driver
+java -jar selenium-server-4.2.2.jar node --detect-drivers true --max-sessions 5
